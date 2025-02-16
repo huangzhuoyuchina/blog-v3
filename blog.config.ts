@@ -4,14 +4,14 @@ import { zhCN } from 'date-fns/locale'
 
 // 存储 nuxt.config 和 app.config 共用的配置
 const blogConfig = {
-    title: '纸鹿摸鱼处',
-    subtitle: '纸鹿至麓不知路，支炉制露不止漉',
+    title: '同山月',
+    subtitle: '与山同行，与月同辉',
     description: '纸鹿本鹿的个人博客，分享技术与生活。“折腾不止，摸鱼生活——摸门🙏🏻”。纸鹿是一名开源爱好者，结识了许多志同道合的朋友。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。',
     author: {
         name: '纸鹿本鹿',
         avatar: 'https://www.zhilu.cyou/api/avatar.png',
-        email: 'hi@zhilu.cyou',
-        homepage: 'https://www.zhilu.cyou/',
+        email: 'tsynws@outlook.com',
+        homepage: 'https://www.tsy.re/',
     },
     copyright: {
         abbr: 'CC BY-NC-SA 4.0',
@@ -21,9 +21,9 @@ const blogConfig = {
     favicon: 'https://www.zhilu.cyou/api/icon.png',
     language: 'zh-CN',
     qqGroup: '169994096',
-    timeEstablished: '2019-07-19',
+    timeEstablished: '2024-01-01',
     timezone: 'Asia/Shanghai',
-    url: 'https://blog.zhilu.cyou/',
+    url: 'https://www.tsy.re/',
 
     feed: {
         limit: 50,
@@ -33,7 +33,7 @@ const blogConfig = {
 
     imageDomains: [
         // 自动启用本域名的 Nuxt Image
-        // 'www.zhilu.cyou',
+        // 'www.tsy.re',
         // '7.isyangs.cn',
     ],
 
@@ -68,7 +68,7 @@ export const dateLocale = zhCN
 // 用于生成 OPML 和友链页面配置
 export const myFeed = <FeedEntry>{
     author: blogConfig.author.name,
-    sitenick: '摸鱼处',
+    sitenick: '同行处',
     title: blogConfig.title,
     desc: blogConfig.subtitle || blogConfig.description,
     link: blogConfig.url,
