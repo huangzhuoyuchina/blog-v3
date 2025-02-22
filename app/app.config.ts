@@ -35,7 +35,7 @@ export default defineAppConfig({
         copyright: `© ${new Date().getFullYear()} ${blogConfig.author.name}`,
         iconNav: <NavItem[]>[
             { icon: 'ph:house-bold', text: '个人主页', url: blogConfig.author.homepage },
-            { icon: 'ri:qq-line', text: '交流群: 169994096', url: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd' },
+            { icon: 'ri:qq-line', text: '交流群: 953683593', url: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=b7SgeZ2BsyIWCMY5k_5WShY-8N-kc4g8&authKey=GdafRSi0%2BQWRgVm0UdZlWYd2xLiB837OSkSSDUjL5bOTDatJqsm8gS7V2G5cpVMp&noverify=0&group_code=953683563' },
             { icon: 'ph:github-logo-bold', text: 'GitHub: L33Z22L11', url: 'https://github.com/L33Z22L11' },
             { icon: 'ph:rss-simple-bold', text: 'Atom订阅', url: '/atom.xml' },
             { icon: 'ph:subway-bold', text: '开往', url: 'https://www.travellings.cn/go-by-clouds.html' },
