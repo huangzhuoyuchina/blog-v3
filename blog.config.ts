@@ -20,7 +20,7 @@ const blogConfig = {
     },
     favicon: 'https://www.zhilu.cyou/api/icon.png',
     language: 'zh-CN',
-    qqGroup: '169994096',
+    qqGroup: '953683563',
     timeEstablished: '2024-01-01',
     timezone: 'Asia/Shanghai',
     url: 'https://www.tsy.re/',
