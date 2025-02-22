@@ -6,7 +6,7 @@ import { zhCN } from 'date-fns/locale'
 const blogConfig = {
     title: '同山月',
     subtitle: '与山同行，与月同辉',
-    description: '同山月的小破站，分享技术与生活。
+    description: '同山月的小破站，分享技术与生活。',
     author: {
         name: '同山月',
         avatar: 'https://www.zhilu.cyou/api/avatar.png',
