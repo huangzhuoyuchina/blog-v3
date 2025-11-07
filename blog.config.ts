@@ -1,15 +1,15 @@
 import type { FeedEntry } from './app/types/feed'
 
 const basicConfig = {
-	title: '纸鹿摸鱼处',
-	subtitle: '纸鹿至麓不知路，支炉制露不止漉',
+	title: '同山月の博客',
+	subtitle: '与山同行，与月同辉',
 	// 长 description 利好于 SEO
-	description: '纸鹿本鹿的个人博客，分享技术与生活。“折腾不止，摸鱼生活——摸门🙏🏻”。纸鹿是一名开源爱好者，结识了许多志同道合的朋友。这个博客记录了他在生活和技术学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。',
+	description: '同山月的个人博客，分享技术与生活，还有一些杂七杂八的东西。“折腾不止，摸鱼生活——摸门🙏🏻”。同山月只是一个小畜生（初中生），只是喜欢搞网络科技罢了，他还有一个工作室',
 	author: {
-		name: '纸鹿本鹿',
-		avatar: 'https://www.zhilu.site/api/avatar.png',
-		email: 'hi@zhilu.cyou',
-		homepage: 'https://www.zhilu.site/',
+		name: '同山月',
+		avatar: 'https://i1.hdslb.com/bfs/face/5901083ae5f7ea63a7ac16e39982b91451cec08e.jpg@240w_240h_1c_1s_!web-avatar-nav.avif',
+		email: 'tsynws@163.com',
+		homepage: 'https://www.tsycn.de/',
 	},
 	copyright: {
 		abbr: 'CC BY-NC-SA 4.0',
@@ -18,9 +18,9 @@ const basicConfig = {
 	},
 	favicon: 'https://www.zhilu.site/api/icon.png',
 	language: 'zh-CN',
-	timeEstablished: '2019-07-19',
+	timeEstablished: '2023-01-01',
 	timezone: 'Asia/Shanghai',
-	url: 'https://blog.zhilu.site/',
+	url: 'https://bk.tsycn.de/',
 	defaultCategory: '未分类',
 }
 
